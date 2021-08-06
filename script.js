@@ -22,7 +22,7 @@ createGrid();
 const squares = document.querySelectorAll('.container div');
 console.log(squares);
 squares.forEach((div) => {
-    div.addEventListener("mouseover", draw, false);
+    div.addEventListener("touchmove", draw, false);
 });
 
 const buttons = document.querySelectorAll('button');
